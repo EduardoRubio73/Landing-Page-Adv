@@ -1,0 +1,65 @@
+/* App-specific styles */
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(201, 164, 92, 0.3);
+  color: inherit;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #C9A45C;
+  outline-offset: 2px;
+}
+
+/* Image loading placeholder */
+img {
+  background-color: rgba(11, 26, 62, 0.1);
+}
+
+/* Prevent layout shift */
+img[src] {
+  background-color: transparent;
+}
+
+/* Mobile touch improvements */
+@media (hover: none) {
+  .btn-primary:hover,
+  .btn-outline:hover {
+    transform: none;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Print styles */
+@media print {
+  .fixed,
+  nav,
+  footer {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
