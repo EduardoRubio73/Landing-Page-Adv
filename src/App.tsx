@@ -619,10 +619,10 @@ function App() {
               <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                 <div>
                   <h4 className="text-gold font-display font-bold text-lg">Tenha uma Landing Page como esta</h4>
-                  <p className="text-white/70 text-sm">Por apenas <span className="text-gold font-bold">R$ 500,00</span> + Parceria Hostinger</p>
+                  <p className="text-white/70 text-sm">A partide de <span className="text-gold font-bold">R$ 500,00</span> + Parceria Hostinger</p>
                 </div>
                 <a
-                  href="https://www.hostinger.com.br"
+                  href="https://zragencyia.com.br"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-gold text-navy font-semibold px-6 py-3 rounded-sm hover:bg-gold-light transition-colors"
